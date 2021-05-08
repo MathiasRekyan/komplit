@@ -45,7 +45,7 @@ module.exports.run = async (Client, message, prefix, args) => {
 
     const emoji = ["⏪", "⏩"]
 
-    const timeout = '100000'
+    const timeout = '10000000'
 
     pagination(message, pages, emoji, timeout)
 }
