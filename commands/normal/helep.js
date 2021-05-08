@@ -51,6 +51,6 @@ module.exports.run = async (Client, message, prefix, args) => {
 }
 
 module.exports.help = {
-    name: 'helep',
+    name: 'help',
     aliases: []
 }
