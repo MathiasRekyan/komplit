@@ -7,7 +7,7 @@ module.exports.run = async (Client, message, args, prefix) => { // for the cmd h
 
     message.channel.send(`Finding the bot ping...`).then(msg => { // sends this once you send the cmd
         const ping = msg.createdTimestamp - message.createdTimestamp; // calculation the time between when u send the message and when the bot reply
-        msg.edit(`🏓\` ${ping}\`ms!`) // it will edit the msg to this after it gets the ping!
+        msg.edit(`🏓 ${ping}ms!`) // it will edit the msg to this after it gets the ping!
     })
 }
 
