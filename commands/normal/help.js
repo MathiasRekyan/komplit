@@ -13,6 +13,7 @@ module.exports.run = async (Client, message, prefix, args) => {
     .addField('`^meme`', 'Random meme for you')
     .addField('`^poll` <tag channel> <what you want to poll>', 'Make a poll in some channel')
     .addField('`^weather <city>`', 'Show current weather in specific location')
+    .setThumbnail('https://media1.tenor.com/images/83c51c0e7a340e6b3d30de2e9e2a1393/tenor.gif?itemid=18658050')
     
     const page2 = new discord.MessageEmbed()
     .setTitle('**INFORMATION**')
@@ -22,19 +23,18 @@ module.exports.run = async (Client, message, prefix, args) => {
     .addField('`^ping`', 'Show BOT ping to the discord server at the moment')
     .addField('`^serverinfo`', 'As the command name said')
     .addField('`^botinfo`', 'What is this?')
+    .setThumbnail('https://media1.tenor.com/images/83c51c0e7a340e6b3d30de2e9e2a1393/tenor.gif?itemid=18658050')
     
     const page3 = new discord.MessageEmbed()
     .setTitle('SUGGESTION PLEASE')
     .setDescription('Have suggestions for future features of this robot? Please contact Ars#6674')
-
+    .setThumbnail('https://media1.tenor.com/images/83c51c0e7a340e6b3d30de2e9e2a1393/tenor.gif?itemid=18658050')
     
-    
-
     const page4 = new discord.MessageEmbed()
     .setTitle('ADMIN COMMAND')
     .setDescription('==================')
     .addField('`What?`', 'Are you a admin here? XD')
-
+    .setThumbnail('https://media1.tenor.com/images/83c51c0e7a340e6b3d30de2e9e2a1393/tenor.gif?itemid=18658050')
 
     const pages = [
         page1,
