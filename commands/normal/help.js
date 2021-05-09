@@ -21,8 +21,8 @@ module.exports.run = async (Client, message, prefix, args) => {
     .addField('`^covid <country>`', 'Show current covid status')
     .addField('`^user` <mention>', 'Show user detail')
     .addField('`^ping`', 'Show BOT ping to the discord server at the moment')
-    .addField('`^serverinfo`', 'As the command name said')
     .addField('`^botinfo`', 'What is this?')
+    .addField('`^report <tag user>, <reason>`', 'Use this if it`s important!')
     .setThumbnail('https://media1.tenor.com/images/83c51c0e7a340e6b3d30de2e9e2a1393/tenor.gif?itemid=18658050')
     
     const page3 = new discord.MessageEmbed()
