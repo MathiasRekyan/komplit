@@ -100,7 +100,20 @@ Client.on("ready", async () => {
     console.log(`${Client.user.username} is Online!`)
 
     // This Will be the Status Of our Bot
-    Client.user.setActivity("^help", {type: "WATCHING"})
+   const arrayOfStatus=[
+   `Try ^help`,
+   `Official bot for Genshin Player`,
+   `Developed by Ars`
+    ];
+    
+    let index = 0;
+    setInterval(()=>{
+        if(index === arrayOfStatus.length) index = 0;
+        const status = arrayOfStatis[index];
+        console.log(status);
+        client.user.setActivity(status, { type: "WATCHING" }).catch(console.error)
+        index++;
+    }, 7000)
 });
 
 
