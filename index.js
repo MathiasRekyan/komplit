@@ -100,10 +100,10 @@ Client.on("ready", async () => {
     console.log(`${Client.user.username} is Online!`)
 
     // This Will be the Status Of our Bot
-   const arrayOfStatus=[
-   `Try ^help`,
-   `Official bot for Genshin Player`,
-   `Developed by Ars`
+   const arrayOfStatus = [
+   "Try ^help",
+   "Official bot for Genshin Player",
+   "Developed by Ars"
     ];
     
     let index = 0;
