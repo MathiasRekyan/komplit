@@ -13,9 +13,6 @@ Client.commands = new Discord.Collection();
 // require the fs module
 const fs = require('fs');
 
-//define a prefix
-const prefix = ('^');
-
 // it creates a new function for our aliases
 Client.aliases = new Discord.Collection();
 
