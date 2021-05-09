@@ -109,7 +109,7 @@ Client.on("ready", async () => {
     let index = 0;
     setInterval(()=>{
         if(index === arrayOfStatus.length) index = 0;
-        const status = arrayOfStatis[index];
+        const status = arrayOfStatus[index];
         console.log(status);
         client.user.setActivity(status, { type: "WATCHING" }).catch(console.error)
         index++;
