@@ -17,23 +17,6 @@ const fs = require('fs');
 Client.aliases = new Discord.Collection();
 
 
-// Welcome message 
-
-Client.on("guildMemberAdd", member => {
-    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === 'cool')
-    welcomeChannel.send (`welcome! ${member}`)
-})
-
-// Bye Message
-
-Client.on("guildMemberRemove", member => {
-    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === 'cool')
-    welcomeChannel.send (`Goodbye! ${member}`)
-})
-
-
-
-
 // Commands Handler 
 
 // get into the cmds folder
