@@ -96,7 +96,7 @@ fs.readdirSync('./commands/').forEach(dir => {
 
 
 // The message that we will get in terminal when we lunch the bot
-Client.on("ready", async () => {
+bot.on("ready", async () => {
     console.log(`${Client.user.username} is Online!`)
 
     // This Will be the Status Of our Bot
@@ -111,7 +111,7 @@ Client.on("ready", async () => {
         if(index === arrayOfStatus.length) index = 0;
         const status = arrayOfStatus[index];
         console.log(status);
-        client.user.setActivity(status, { type: "WATCHING" }).catch(console.error)
+        bot.user.setActivity(status, { type: "WATCHING" }).catch(console.error)
         index++;
     }, 7000)
 });
