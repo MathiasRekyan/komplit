@@ -2,7 +2,7 @@ const discord = require('discord.js')
 const pagination = require('discord.js-pagination');
 
 module.exports.run = async (Client, message, prefix, args) => {
-    if(!message.content.startsWith(prefix)) return;
+    if(!message.content.startsWith("^")) return;
 
     const page1 = new discord.MessageEmbed()
     .setTitle('**Fun Command**')
