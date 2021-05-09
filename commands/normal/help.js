@@ -36,7 +36,7 @@ module.exports.run = async (Client, message, prefix, args) => {
     .addField('`What?`', 'Are you a admin here? XD')
 
 
-    const help = [
+    const pages = [
         page1,
         page2,
         page3,
