@@ -16,6 +16,6 @@ module.exports.run = async (Client, message, args, prefix) => {
     }
             
     module.exports.help = {
-        name: `Snow-TombedStarsilver`, //change with weapon name wihout space
-        aliases: ["Snow-tombedstarsilver" , "snow-tombedstarsilver" , "stss"]
+        name: `SnowTombedStarsilver`, //change with weapon name wihout space
+        aliases: ["snowtombedstarsilver" , "Snowtombedstarsilver" , "stss"]
     }
