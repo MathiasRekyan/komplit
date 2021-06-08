@@ -18,6 +18,7 @@ module.exports.run = async (Client, message, prefix, args) => {
     const page2 = new discord.MessageEmbed()
     .setTitle('**INFORMATION**')
     .setDescription('Some important info you can get :D')
+    .addField('`^list`', 'Show the weapon,character, and artifact detail')
     .addField('`^covid <country>`', 'Show current covid status')
     .addField('`^user` <mention>', 'Show user detail')
     .addField('`^ping`', 'Show BOT ping to the discord server at the moment')
