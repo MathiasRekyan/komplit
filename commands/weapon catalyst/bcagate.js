@@ -17,5 +17,5 @@ module.exports.run = async (Client, message, args, prefix) => {
     
     module.exports.help = {
         name: `blackcliffagate`,
-        aliases: ["blackagate","blackclifagate"]
+        aliases: ["blackagate","blackclifagate", "bcagate"]
     }
