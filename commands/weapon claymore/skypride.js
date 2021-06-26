@@ -17,5 +17,5 @@ module.exports.run = async (Client, message, args, prefix) => {
                         
     module.exports.help = {
         name: `SkywardPride`, //change with weapon name wihout space
-        aliases: ["Skywardpride" , "skywardpride" , "sp"]
+        aliases: ["Skywardpride" , "skywardpride" , "sp", "skypride"]
     }
