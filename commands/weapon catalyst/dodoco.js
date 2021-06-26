@@ -4,7 +4,7 @@ module.exports.run = async (Client, message, args, prefix) => {
     if(!message.content.startsWith(prefix)) return;
 
     const embed = new Discord.MessageEmbed()
-    .setTitle("Apprentice's Notes")
+    .setTitle("Dodoco Tales")
     .addField("\u200B", "⧫ Type: " + "Catalyst" + "\r\n ⧫ Rarity: " + "⭐⭐⭐⭐" + "\r\n ⧫ Location: " + "Event" , true)
     .addField("\u200B", "⧫ ATK: " + "41 (max 454)" + "\r\n ⧫ 2nd Stat: " + "ATK+12% (max 55.1%", true)
     .addField("Passive Ability: Dodoventure!", "Normal Attack hits on opponents increase Charged Attack DMG by 16%/20%/24%/28%/32% for 6s. Charged Attack hits on opponents increase ATK by 8%/10%/12%/14%/16% for 6s. ")
