@@ -4,7 +4,7 @@ module.exports.run = async (Client, message, args, prefix) => {
     if(!message.content.startsWith(prefix)) return;
 
     const embed = new Discord.MessageEmbed()
-    .addField("Protorype Roncour", "⧫ Type: " + "Sword" + "\r\n ⧫ Rarity: " + "⭐⭐⭐⭐" + "\r\n ⧫ Location: " + "Crafting" , true)
+    .addField("Protorype Rancour", "⧫ Type: " + "Sword" + "\r\n ⧫ Rarity: " + "⭐⭐⭐⭐" + "\r\n ⧫ Location: " + "Crafting" , true)
     .addField("\u200B", "⧫ ATK: " + "44 (max 565)" + "\r\n ⧫ 2nd Stat: " + "Physical DMG+ 7.5% (max 34.5%)", true)
     .addField("Passive Ability: Smashed Stone", "On hit, Normal or Charged Attacks increase ATK and DEF by 4~8% for 6s. Max 4 stacks. Can only occur once every 0.3s.")
     .setImage("https://rerollcdn.com/GENSHIN/Weapon/NEW/Prototype_Rancour.png", 2, 2)
@@ -15,6 +15,6 @@ module.exports.run = async (Client, message, args, prefix) => {
     }       
     
     module.exports.help = {
-        name: `roncour`,
-        aliases: ["protoroncour" , "prototyperoncour" , "pr"]
+        name: `rancour`,
+        aliases: ["protorancour" , "prototyperancour" , "pr"]
     }
