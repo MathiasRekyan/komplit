@@ -20,3 +20,5 @@ module.exports.run = async (Client, message, args, prefix) => {
     module.exports.help = {
         name: `Freedom-Sworn`, //change with weapon name wihout space
         aliases: ["freedomsword", "freedom" , "freedomsworn" , "pedangkazuha"]
+        
+    }
