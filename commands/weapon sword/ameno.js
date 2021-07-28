@@ -16,5 +16,5 @@ module.exports.run = async (Client, message, args, prefix) => {
     
     module.exports.help = {
         name: `amenomakageuchi`,
-        aliases: ["amenoma" , "amen" , "noma" ]
+        aliases: ["amenoma" , "amen" , "noma", "ameno" ]
     }
