@@ -10,7 +10,7 @@ module.exports.run = async (Client, message, args, prefix) => {
     let avatar = user.displayAvatarURL({size: 4096, dynamic: true})
 
     const embed = new discord.MessageEmbed()
-    .setTitle(`${user.tag}'s Avatar`)
+    .setTitle(`${user.tag} Avatar`)
     .setURL(avatar)
     .setImage(avatar)
     .setColor('RANDOM')
