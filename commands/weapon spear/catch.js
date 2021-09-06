@@ -4,7 +4,7 @@ module.exports.run = async (Client, message, args, prefix) => {
     if(!message.content.startsWith(prefix)) return;
 
     const embed = new Discord.MessageEmbed()
-    .setTitle("Deathmatch")
+    .setTitle("The Catch")
     .addField("\u200B", "⧫ Type: " + "Polearm" + "\r\n ⧫ Rarity: " + "⭐⭐⭐⭐" + "\r\n ⧫ Location: " + "Fishing Shop Inazuma" , true)
     .addField("\u200B", "⧫ ATK: " + "42 (510)" + "\r\n ⧫ 2nd Stat: " + "Energy Recharge 10.0% (45.9%)", true)
     .addField("Passive Ability: Shanty", "Increases Elemental Burst DMG by 16/20/24/28/32% and Elemental Burst CRIT Rate by 6/7.5/9/10.5/12%.")
